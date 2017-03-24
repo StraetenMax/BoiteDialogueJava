@@ -10,7 +10,7 @@ public class BoiteDialog {
 		String demande2 =JOptionPane.showInputDialog("Entrez un deuxième nombre ?");
 		int nbre2 = Integer.parseInt(demande2);
 		
-		String message = String.format("la somme est de %s ", (nbre1+nbre2));
+		String message = String.format("la somme est de %d ", (nbre1+nbre2));
 		//JOptionPane.showMessageDialog(null,"Bonjour "+nom);
 		JOptionPane.showMessageDialog(null, message);
 		
